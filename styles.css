@@ -136,8 +136,8 @@ p {
 .banner-area {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.582)),
-    url(./Images/assortment-backgrounds-baking-birthday-1174114.jpg)
-      center/cover no-repeat fixed;
+    url(../Images/white-icing-cover-cake-1702373.jpg) center/cover no-repeat
+      fixed;
   width: 100vw;
   height: 100vh;
   background-size: cover;
