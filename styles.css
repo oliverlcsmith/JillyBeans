@@ -3,22 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|Share:700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 
-/* Media Queries */
-/* When the screen in smaller than 800px */
-@media only screen and (max-width: 800px) {
-  /* Navbar */
-  .nav {
-    visibility: hidden;
-  }
-}
-
-/* When the screen is more than 800px */
-@media only screen and (min-width: 800px) {
-  .menu-wrap {
-    visibility: hidden;
-  }
-}
-
 /* Variables */
 
 :root {
@@ -61,16 +45,16 @@ p {
 
 /* Home Page CSS */
 
-.title {
+.title-container {
   position: relative;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 40vh;
   color: #ffffff;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .title-divider {
@@ -146,9 +130,9 @@ p {
 }
 
 .order-button {
-  width: 15vw;
-  height: 7vh;
-  margin: 1rem;
+  width: auto;
+  height: auto;
+  margin: 1em;
   border-radius: 1em;
   font-family: var(--secondaryFont);
   font-size: 2em;
@@ -158,6 +142,7 @@ p {
 }
 
 .order-button-link {
+  padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
   color: #fefefe;
@@ -278,4 +263,26 @@ footer {
 .footer-text {
   font-size: 0.6em;
   padding: 0;
+}
+
+/* Media Queries */
+/* When the screen in smaller than 800px */
+@media only screen and (max-width: 800px) {
+  /* Navbar */
+  .nav {
+    visibility: hidden;
+  }
+  .welcome {
+    font-size: 2.5em;
+  }
+  .order-button {
+    font-size: 1em;
+  }
+}
+
+/* When the screen is more than 800px */
+@media only screen and (min-width: 800px) {
+  .menu-wrap {
+    visibility: hidden;
+  }
 }

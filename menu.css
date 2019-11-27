@@ -28,7 +28,7 @@ body {
 
 .menu-wrap .toggler {
   position: absolute;
-  top: 2vh;
+  top: 0;
   right: 0;
   z-index: 2;
   cursor: pointer;
@@ -39,7 +39,7 @@ body {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 2vh;
+  top: 0;
   right: 0;
   z-index: 1;
   width: 60px;
