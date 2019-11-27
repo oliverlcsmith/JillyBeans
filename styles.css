@@ -172,6 +172,10 @@ p {
   height: 100vh;
 }
 
+.portfolio-area {
+  height: auto;
+}
+
 .text-part {
   width: 80%;
   height: 80%;
@@ -198,12 +202,15 @@ p {
   /* Adds as many column as the page can fit */
   grid-auto-rows: minmax(auto);
   grid-gap: 0.5em;
+  margin: 1em;
 }
 
 .portfolio-item {
   width: auto;
   height: auto;
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-image {
