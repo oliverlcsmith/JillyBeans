@@ -31,7 +31,8 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+h1,
+.logo {
   font-size: 40px;
   text-align: center;
   font-family: var(--titleFont);
@@ -97,6 +98,7 @@ p {
   margin-left: 10%;
   color: #fefefe;
   text-shadow: 4px 4px 3px #262626;
+  text-decoration: none;
 }
 
 .nav-link {
