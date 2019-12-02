@@ -162,8 +162,7 @@ p {
 }
 
 .about-area,
-.portfolio-area,
-.image-area {
+.portfolio-area {
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -176,6 +175,8 @@ p {
 
 .portfolio-area {
   height: auto;
+  padding-top: 3em;
+  background: #fefefe;
 }
 
 .text-part {
@@ -188,9 +189,6 @@ p {
 .footer-area {
   background: #262626;
   color: whitesmoke;
-}
-.portfolio-area {
-  background: #fefefe;
 }
 
 /* Portfolio Section */
@@ -210,13 +208,13 @@ p {
 .portfolio-item {
   width: auto;
   height: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
 }
 
 .portfolio-image {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 
@@ -286,6 +284,13 @@ footer {
   }
   .order-button {
     font-size: 1.5em;
+  }
+  .content-text {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .portfolio-image {
+    width: 250px;
   }
 }
 
