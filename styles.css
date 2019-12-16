@@ -83,11 +83,19 @@ p {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--navbarColor);
+  background-color: transparent;
   width: 100vw;
   height: 70px;
   z-index: 1;
 }
+
+.nav-clear {
+  background: transparent;
+}
+.nav-scrolled {
+  background: #df9b91a4;
+}
+
 .nav {
   display: flex;
   justify-content: right;
