@@ -300,18 +300,16 @@ footer {
   .portfolio-image {
     width: 250px;
   }
+  .banner-area {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.582)),
+      url(./Images/photos-by-lanty-22JxStzTxwo-unsplash.jpg) center/cover
+        no-repeat fixed;
+  }
 }
 
 /* When the screen is more than 800px */
 @media only screen and (min-width: 800px) {
   .menu-wrap {
     visibility: hidden;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .banner-area {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.582)),
-      url(./Images/photos-by-lanty-22JxStzTxwo-unsplash.jpg) center/cover
-        no-repeat fixed;
   }
 }
