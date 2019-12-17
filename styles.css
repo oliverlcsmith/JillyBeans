@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Lobster|Share:700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 
@@ -66,13 +66,19 @@ p {
   margin: 1em;
   background: #ffffff;
 }
+.tagline {
+  font-family: var(--mainFont);
+  font-size: 2rem;
+  font-weight: 200;
+}
 
-.title-description {
+/* ? What does this do */
+/* .title-description {
   color: #ffffff;
   font-family: var(--mainFont);
   font-size: 2em;
   text-transform: uppercase;
-}
+} */
 
 .navbar {
   font-family: var(--mainFont);
