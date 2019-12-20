@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lobster|Share:700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
 
@@ -82,24 +82,21 @@ p {
 
 .navbar {
   font-family: var(--mainFont);
-  font-weight: bold;
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--navbarColor);
+  /* background-color: var(--navbarColor); */
   width: 100vw;
   height: 70px;
   z-index: 1;
 }
 
-.nav-clear {
+.navbar-default {
   background: transparent;
-}
-.nav-scrolled {
-  background: #df9b91a4;
+  transition-duration: 1s;
 }
 
 .nav {
